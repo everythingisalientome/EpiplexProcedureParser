@@ -1,0 +1,71 @@
+# Core dependencies for Process Capture Analysis Tool
+# =================================================
+
+# LangGraph and LangChain ecosystem
+langgraph>=0.0.65
+langchain>=0.1.0
+langchain-core>=0.1.0
+
+# OpenAI API client
+openai>=1.12.0
+
+# Data processing and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Computer vision for image processing
+opencv-python>=4.8.0
+
+# File and path handling
+pathlib2>=2.3.7; python_version < '3.4'
+
+# Logging and utilities
+coloredlogs>=15.0.1
+
+# Optional: Enhanced logging and debugging
+rich>=13.0.0
+
+# Optional: Progress bars for batch processing
+tqdm>=4.65.0
+
+# Development and testing dependencies (optional)
+# =============================================
+# Uncomment these if you plan to extend or test the tool
+
+# pytest>=7.4.0
+# pytest-asyncio>=0.21.0
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.5.0
+
+# Optional: Jupyter notebook support for analysis
+# ==============================================
+# Uncomment if you want to use Jupyter notebooks
+
+# jupyter>=1.0.0
+# ipykernel>=6.25.0
+# matplotlib>=3.7.0
+# seaborn>=0.12.0
+
+# Optional: Additional automation libraries
+# ========================================
+# Uncomment these if you want to test generated selectors
+
+# selenium>=4.15.0
+# pyautogui>=0.9.54
+# pillow>=10.0.0  # For PyAutoGUI screenshot functionality
+# webdriver-manager>=4.0.0  # For automatic webdriver management
+
+# Optional: Enhanced image processing
+# ==================================
+# Uncomment for advanced image analysis capabilities
+
+# scikit-image>=0.21.0
+# pytesseract>=0.3.10  # OCR capabilities for image text extraction
+
+# Optional: Performance optimization
+# =================================
+# Uncomment for better performance with large datasets
+
+# polars>=0.19.0  # Faster alternative to pandas for large datasets
+# pyarrow>=13.0.0  # For efficient data serialization
